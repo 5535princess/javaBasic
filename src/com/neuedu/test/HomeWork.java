@@ -2,6 +2,12 @@ package com.neuedu.test;
 
 public class HomeWork {
     public static void main(String[] args) {
-        System.out.print(1);
+        int i=521;
+        int m=0;
+        while (i !=0){
+            m=i%10;
+            System.out.print(m);
+            i=i/10;
+        }
     }
 }
