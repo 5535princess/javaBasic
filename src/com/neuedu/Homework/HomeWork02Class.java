@@ -1,8 +1,4 @@
-package com.neuedu.test;
-
-import com.neuedu.test.HomeWork02;
-
-import java.util.Scanner;
+package com.neuedu.Homework;
 
 public class HomeWork02Class {
     public static void main(String[] args) {
