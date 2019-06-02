@@ -8,7 +8,7 @@ public class InstrumentTest {
         Wind wind=new Wind();
         wind.play();
 
-        System.out.println();
+        System.out.println("-----------分割线---------");
 
         Brass brass=new Brass();
         brass.play();
