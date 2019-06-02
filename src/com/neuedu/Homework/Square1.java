@@ -1,7 +1,6 @@
 package com.neuedu.Homework;
 
-public class Square extends Shap {
-
+public class Square1 extends Shape1{
     private double side;
 
     public double getSide() {
@@ -11,18 +10,9 @@ public class Square extends Shap {
     public void setSide(double side) {
         this.side = side;
     }
-
-    @Override
     public void girth() {
         double g=4*side;
         System.out.println("正方形周长"+g);
     }
 
-    @Override
-    public void area() {
-        double area=Math.pow(side,2);
-        System.out.println("正方形面积"+area);
-    }
-
 }
-

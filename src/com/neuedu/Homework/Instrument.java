@@ -1,12 +1,8 @@
 package com.neuedu.Homework;
 
-public class Instrument {
+public abstract class Instrument {
 
-        private String name;
+    public abstract void play();
 
-        public void play(){
-
-            System.out.println("正在用"+name+"演奏");
-        }
-    }
+}
 
